@@ -20,7 +20,6 @@ Sub Map
 End Sub
 
 
-
 Function PreparePlayer AS Player
     Dim pn AS String
     Dim playerObject AS Player
@@ -38,7 +37,6 @@ End Function
 Sub MainProgram
     print PreparePlayer.y
 End Sub
-
 
 
 '################### MAIN PROGRAM
