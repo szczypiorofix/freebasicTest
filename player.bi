@@ -1,3 +1,7 @@
+#ifndef __PLAYER_BI_
+#define __PLAYER_BI_
+
+
 Type Player
     Public:
         x As Integer
@@ -13,6 +17,8 @@ Type Player
     Declare Sub moveRight
     Declare Sub view()
 End Type
+
+
 
 Sub Player.setX(ByRef newX As Integer)
     This.x = newX
@@ -45,3 +51,5 @@ End Sub
 Sub Player.view()
     LOCATE This.x, This.y: Print This.text
 End Sub
+
+#endif
